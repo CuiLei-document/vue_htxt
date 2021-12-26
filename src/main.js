@@ -33,6 +33,11 @@ Vue.use(ElementUI, { locale })
 // 如果想要中文版 element-ui，按如下方式声明
 // Vue.use(ElementUI)
 
+// 按钮提示框组件
+import HintButton from '@/components/hintButton/index.vue'
+Vue.component('HintButton',HintButton)
+
+
 Vue.config.productionTip = false
 
 new Vue({
